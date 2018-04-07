@@ -1,0 +1,54 @@
+﻿  AABB.cpp
+  main.cpp
+main.cpp(426): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+main.cpp(433): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+main.cpp(484): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+main.cpp(485): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+main.cpp(592): warning C4018: '<': signed/unsigned mismatch
+main.cpp(611): warning C4018: '<': signed/unsigned mismatch
+main.cpp(631): warning C4018: '<': signed/unsigned mismatch
+main.cpp(650): warning C4018: '<': signed/unsigned mismatch
+main.cpp(668): warning C4018: '<': signed/unsigned mismatch
+main.cpp(686): warning C4018: '<': signed/unsigned mismatch
+main.cpp(704): warning C4018: '<': signed/unsigned mismatch
+main.cpp(722): warning C4018: '<': signed/unsigned mismatch
+main.cpp(740): warning C4018: '<': signed/unsigned mismatch
+main.cpp(758): warning C4018: '<': signed/unsigned mismatch
+main.cpp(794): warning C4018: '<': signed/unsigned mismatch
+main.cpp(795): warning C4018: '<': signed/unsigned mismatch
+main.cpp(1040): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+main.cpp(1122): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+main.cpp(1193): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+main.cpp(1194): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+main.cpp(1198): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+main.cpp(1199): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+main.cpp(1201): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+main.cpp(1202): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+main.cpp(1209): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  objloader.cpp
+objloader.cpp(33): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+objloader.cpp(44): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+objloader.cpp(52): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+objloader.cpp(56): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+objloader.cpp(61): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+objloader.cpp(66): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+  RigidBody.cpp
+SOIL.lib(SOIL.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  All 688 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+SOIL.lib(image_DXT.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SOIL.lib(image_DXT.obj)' or at 'U:\Physics 1\Release\vc120.pdb'; linking object as if no debug info
+SOIL.lib(image_helper.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SOIL.lib(image_helper.obj)' or at 'U:\Physics 1\Release\vc120.pdb'; linking object as if no debug info
+SOIL.lib(SOIL.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SOIL.lib(SOIL.obj)' or at 'U:\Physics 1\Release\vc120.pdb'; linking object as if no debug info
+SOIL.lib(stb_image_aug.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SOIL.lib(stb_image_aug.obj)' or at 'U:\Physics 1\Release\vc120.pdb'; linking object as if no debug info
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'U:\Physics 1\Release\vc120.pdb'; linking object as if no debug info
+  opengl.vcxproj -> U:\Physics 1\Release\opengl.exe
+  opengl.vcxproj -> U:\Physics 1\Release\opengl.pdb (Full PDB)
